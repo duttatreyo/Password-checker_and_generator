@@ -15,6 +15,9 @@ Input your password when prompted to check its strength.
 Choose whether you want to generate a strong password.
 Decide if you want to regenerate the provided strong password.
 Continue with a new password or exit the program as needed.
+
+OR
+Download the HTML code and use the Checker for minimal work
 Example
 
 $ python password-checker.py
