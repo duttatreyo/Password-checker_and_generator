@@ -34,6 +34,7 @@ Code Overview
 password_strength Function: Checks the strength of the inputted password based on predefined criteria.
 generate_password Function: Generates a random password based on a combination of ASCII characters, digits, and punctuation.
 Interactive Loops: Allows users to interactively check password strength, generate new passwords, and regenerate them until satisfaction.
+
 Contribution
 Feel free to fork this project, open an issue, or submit pull requests. All contributions are welcome!
 
