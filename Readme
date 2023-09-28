@@ -16,8 +16,8 @@ Choose whether you want to generate a strong password.
 Decide if you want to regenerate the provided strong password.
 Continue with a new password or exit the program as needed.
 
-OR
-Download the HTML code and use the Checker for minimal work
+
+Alternatively, you can download the HTML code and utilize the Checker for more streamlined tasks.
 
 Example
 $ python password-checker.py
