@@ -18,12 +18,11 @@ Continue with a new password or exit the program as needed.
 
 OR
 Download the HTML code and use the Checker for minimal work
-Example
 
+Example
 $ python password-checker.py
 
 Example Output
-
 Enter the password: example
 Password must be at least 12 characters long.
 Would you like to generate a strong password? (yes/no): yes
