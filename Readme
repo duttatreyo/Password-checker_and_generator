@@ -17,7 +17,7 @@ Decide if you want to regenerate the provided strong password.
 Continue with a new password or exit the program as needed.
 Example
 
-$ python interactive_password_checker_with_regeneration.py
+$ python password-checker.py
 
 Example Output
 
