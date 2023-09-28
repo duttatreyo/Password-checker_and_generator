@@ -36,19 +36,19 @@ def generate_password(length=16):
 
 if __name__ == "__main__":
     while True:
-        password = input("Enter the password: ")
+        password = input("Enter the password: ").strip()  # strip leading/trailing whitespace
         print(password_strength(password))
         
-        user_input = input("Would you like to generate a strong password? (yes/no): ").strip().lower()
+        user_input = input("Would you like to generate a strong password? (yes/no): ").strip().lower()  # sanitize input
         if user_input == 'yes':
             while True:
                 generated_password = generate_password()
                 print(f"Generated Password: {generated_password}")
-                user_input = input("Would you like to regenerate the password? (yes/no): ").strip().lower()
+                user_input = input("Would you like to regenerate the password? (yes/no): ").strip().lower()  # sanitize input
                 if user_input != 'yes':
                     break
         
-        user_input = input("Would you like to try again with a new password? (yes/no): ").strip().lower()
+        user_input = input("Would you like to try again with a new password? (yes/no): ").strip().lower()  # sanitize input
         if user_input != 'yes':
             print("Exiting the program.")
             break
