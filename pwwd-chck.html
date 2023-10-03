@@ -65,8 +65,8 @@
             let strength = 'Password is strong.';
             passwordStrength.style.color = '#28a745';
             
-            if (password.length < 12) {
-                strength = 'Password must be at least 12 characters long.';
+            if (password.length < 8) {
+                strength = 'Password must be at least 8 to 15 characters long.';
                 passwordStrength.style.color = '#ff0000';
             }
             else if (!(/[a-z]/.test(password))) strength = 'Password must contain at least one lowercase letter.';
