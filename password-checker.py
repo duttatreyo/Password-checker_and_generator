@@ -3,8 +3,8 @@ import string
 import random
 
 def password_strength(password):
-    if len(password) < 12:
-        return "Password must be at least 12 characters long."
+    if len(password) < 8:
+        return "Password must be at least 8 to 15 characters long."
     
     if not any(char.islower() for char in password):
         return "Password must contain at least one lowercase letter."
